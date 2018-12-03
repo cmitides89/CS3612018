@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScannerDemo",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ScannerDemo",
+            "args": "",
+            "projectName": "ParserScanner2011Original"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Token",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Token",
+            "args": "",
+            "projectName": "ParserScanner2011Original"
+        }
+    ]
+}
