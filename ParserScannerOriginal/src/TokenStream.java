@@ -123,7 +123,7 @@ public class TokenStream {
 			case '=':
 				// t.setValue(t.getValue() + nextChar);
 				// look for <=, >=, !=, ==
-				// TO BE COMPLETED TODO: I think its completed? Test it
+				// COMPLETED
 				if(followingChar == '='){
 					t.setValue("==");
 					nextChar = readChar();
@@ -135,7 +135,7 @@ public class TokenStream {
 				}
 				
 			case '|': // look for the OR operator, \/
-				// TO BE COMPLETED TODO: TEST - IT'S COMPLETED
+				// COMPLETED
 				if(followingChar == '|'){
 					t.setValue("||");
 					nextChar = readChar();
